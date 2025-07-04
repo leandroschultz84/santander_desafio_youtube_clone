@@ -1,0 +1,123 @@
+body{
+    background-color: #ffffff;
+
+
+
+
+
+}
+
+
+.container-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-esquerdo,
+.navbar-centro,
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 24px; /* espaço entre ícones */
+}
+
+.navbar-centro {
+  flex: 1;
+  justify-content: center;
+}
+
+.container-video{
+    display: flex;
+    justify-content: left;
+    padding-right: 25px;
+    padding: 5px;
+    margin: 15px;
+    
+    
+
+}
+
+
+
+
+
+.dio-youtube{
+    margin-top: 0px;
+    
+
+
+
+}
+.dio-imagem {
+  
+  margin: 35px;
+  
+  margin-top: -10px; /* ajuste conforme necessário */
+  display: block;
+}
+  
+  
+
+
+
+
+.semana{
+    margin-left: 35px;
+    
+    margin-top: -20px; /* diminui esse valor para subir ainda mais */
+    display: block;
+}
+
+
+.logo-video{
+    
+    margin-left: 55px;
+    margin-top: 1px;
+
+}
+
+.inscrito-like{
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.paragrafo{
+    margin: 35px;
+    margin-top: -2px;
+    padding: 22px;
+
+
+
+}
+
+.view{
+    
+
+    margin-left: 57px;
+    margin-top: 27px; /* você pode aumentar esse valor se quiser que suba mais */
+    display: block;
+}
+
+.inscrito-like figure {
+    display: flex;
+    align-items: center;
+    gap: 35px; /* ajusta o espaçamento entre todos os ícones */
+}
+
+
+.sidebar-thumbs {
+    position: absolute;
+    top: 72px;            /* ajusta a altura inicial */
+    right: 0;              /* cola na lateral direita da tela */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;          /* largura da barra lateral */
+    padding: 10px;
+}
+
